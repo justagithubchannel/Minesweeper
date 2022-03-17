@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+#board {
+	width: 1000px;
+	height: 1000px;
+	background-color: lightgrey;
+	font-family: 'Arvo', serif;
+}
+
+.cell {
+	width: 46px;
+	height: 46px;
+	border: 2px solid #3f9660;
+	background-color: #5bd489;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+.row {
+	width: 1000px;
+	height: 50px;
+}
+
+
+.opcell {
+	width: 46px;
+	height: 46px;
+	border: 2px solid #8acbe3;
+	background-color: #9ce4ff;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
